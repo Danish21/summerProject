@@ -1,0 +1,23 @@
+{
+  "name": "summerProject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.12.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Danish21/summerProject.git"
+  },
+  "author": "Danish Noorani and Edmond Jay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Danish21/summerProject/issues"
+  },
+  "homepage": "https://github.com/Danish21/summerProject"
+}
