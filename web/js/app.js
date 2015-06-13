@@ -1,4 +1,5 @@
-angular.module('summerproject',['controllers']).
+angular.module('summerproject',['ngRoute', 'ngResource','summerproject.controllers']).
 	config(['$routeProvider', function($routeProvider){
-		$routeProvider.when('/', {title: 'Home', templateUrl: 'partials/home.html', controller: 'ChooseAccountCtrl'});
+		'use strict';
+		$routeProvider.when('/', {title: 'Home', templateUrl: 'partials/temp1.html', controller: 'tempCtrl'});
 	}]);
